@@ -23,12 +23,3 @@ def create_tables() -> None:
         conn.commit()
     finally: 
         conn.close()
-
-
-def main():
-    create_tables()
-    print("Table was created!")
-
-
-if __name__ == "__main__":
-    main()
